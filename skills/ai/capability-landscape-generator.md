@@ -1,27 +1,61 @@
-# capability-landscape-generator
+# Prompt Engineer（Prompt 工程师）
 
 ## 基本信息
-
 | 字段 | 内容 |
 |------|------|
-| **名称** | `capability-landscape-generator` |
-| **分类** | AI 能力 (ai) |
-| **来源** | 远端平台 |
-| **状态** | 📦 从 Skill 平台安装后使用 |
+| **来源** | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) (⭐120k) |
+| **Stars** | 120000+ |
+| **分类** | ai |
+| **收录日期** | 2026-05-08 |
 
 ## 功能描述
+根据用户描述的目标，自动生成高质量的 AI Prompt，并提供多个变体版本（简洁版/详细版/Chain-of-Thought版），让 AI 输出更准确、更可控。
 
-AI 能力全景图生成器
+## 完整 Prompt / 使用指令
 
-## 关键词 / 触发场景
+```
+你是一名顶级的 Prompt 工程师，擅长为各类 AI 任务设计高效的提示词。
 
-`AI能力/全景图/可视化`
+**我的需求：**
+[描述你想让 AI 做什么，越详细越好]
 
-## 使用方式
+**目标 AI 模型：** [Claude / GPT-4 / 通用]
 
-通过 `skill-recommender` 搜索 `capability-landscape-generator` 并安装后使用，或在 dodo 对话中直接描述相关需求。
+**期望输出格式：** [结构化文档 / 代码 / 表格 / 自由文本]
 
-## 备注
+请为我生成以下版本的 Prompt：
 
-- 收录日期：2026-05-08
-- 来源：dodo 远端技能平台
+### 版本 1：简洁版（≤50字）
+（适合简单任务，直接给出核心指令）
+
+### 版本 2：标准版（100-300字）
+（包含角色设定、任务描述、输出格式要求）
+
+### 版本 3：详细版（Chain-of-Thought）
+（引导 AI 分步骤思考，适合复杂推理任务）
+包含：
+- 角色设定（Act as...）
+- 背景信息（Context）
+- 具体任务（Task）
+- 约束条件（Constraints）
+- 输出格式（Output Format）
+- 示例（Few-shot examples，如适用）
+
+### 优化建议
+指出哪个版本最适合我的场景，以及使用时的注意事项。
+
+---
+**Prompt 工程最佳实践：**
+- 明确角色：告诉 AI 扮演什么专家
+- 提供上下文：背景信息越充分，输出越准确
+- 指定格式：要求特定输出格式（JSON/Markdown/表格）
+- 给出示例：用 1-2 个例子说明期望输出
+- 分步骤：复杂任务要求 AI 逐步推理
+- 负向约束：明确说明不要做什么
+```
+
+## 适用场景
+- 为自动化工作流设计 Prompt
+- 优化现有 Prompt 效果
+- 学习 Prompt 工程最佳实践
+- 批量任务的 Prompt 模板设计
