@@ -3,7 +3,7 @@
 > 每日从 GitHub 和互联网收集整理的高质量 AI Agent Skill  
 > 来源可信 · 内容完整 · 去重甄别 · 持续更新
 
-**共收录 148 个 Skill** | 最近更新：2026-05-08 | 来源：Anthropic、Vercel、Stripe、Trail of Bits、社区精选
+**共收录 153 个 Skill** | 最近更新：2026-05-08 | 来源：Anthropic、Vercel、Stripe、Trail of Bits、LLM-Prompt-Library、社区精选
 
 ---
 
@@ -11,7 +11,7 @@
 
 | 分类 | 说明 | 数量 | 目录 |
 |------|------|:----:|------|
-| 🛠️ dev（开发工具） | 代码开发、评审、安全、DevOps、框架最佳实践 | 44 | [→ skills/dev/](skills/dev/) |
+| 🛠️ dev（开发工具） | 代码开发、评审、安全、DevOps、框架最佳实践 | 49 | [→ skills/dev/](skills/dev/) |
 | 📝 doc（文档写作） | Word/PDF/PPT 创作、知识库、周报、内部沟通 | 19 | [→ skills/doc/](skills/doc/) |
 | 📊 data（数据分析） | 数据查询、报表分析、电子表格、Python 分析 | 18 | [→ skills/data/](skills/data/) |
 | 🎨 design（设计创作） | 图片生成、视觉设计、算法艺术、品牌规范 | 17 | [→ skills/design/](skills/design/) |
@@ -102,6 +102,11 @@
 | [`bug-fix-analyzer`](skills/dev/bug-fix-analyzer.md) | Bug 修复分析定位 | ⭐⭐ |
 | [`dev-pipeline`](skills/dev/dev-pipeline.md) | 开发流水线管理 | ⭐⭐ |
 | [`ai-code-review`](skills/dev/ai-code-review.md) | AI 通用代码评审 | ⭐⭐ |
+| [`code-anything-now`](skills/dev/code-anything-now.md) | CAN 极限编程助手（任意语言完整代码） | ⭐⭐⭐ |
+| [`python-bug-fixer`](skills/dev/python-bug-fixer.md) | Python Bug 修复 + PEP8 修正 | ⭐⭐⭐ |
+| [`code-explainer`](skills/dev/code-explainer.md) | 通俗解释任意代码逻辑 | ⭐⭐⭐ |
+| [`ai-copilot`](skills/dev/ai-copilot.md) | 多语言全栈编程 Copilot | ⭐⭐⭐ |
+| [`cursor-ide-prompt`](skills/dev/cursor-ide-prompt.md) | Cursor IDE 风格代码助手 | ⭐⭐⭐ |
 | [`php-to-go-converter`](skills/dev/php-to-go-converter.md) | PHP 转 Go 语言工具 | ⭐ |
 | [`langflow-skill`](skills/dev/langflow-skill.md) | LangFlow 工作流集成 | ⭐ |
 | *(以及其他 20 个 Skill…)* | | |
